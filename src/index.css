@@ -1,0 +1,60 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#drum-machine {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  margin: 13vh;
+  padding: 50px 50px 50px 50px;
+  background: grey;
+  width: 400px;
+  height: 400px;
+  border-radius: 15%;
+}
+.drum-pad {
+  background: red;
+  color: white;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+  box-shadow: 10px 10px 5px black;
+}
+.drum-pad:active {
+  color: white;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 25%;
+  background: darkred;
+  box-shadow: 5px 5px 0px black;
+}
+
+#display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  color: white;
+  background: black;
+}
+#power {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  background: green;
+}
+#bank {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100px;
+  background: white;
+}
